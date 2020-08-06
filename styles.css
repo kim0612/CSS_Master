@@ -1,15 +1,15 @@
-.box {
-  background: blue;
+.wrapper{
+  height: 90vh;
+  display: flex;
+  
+  /* main axis */
+  justify-content: space-around;
+  
+  /* cross axis*/
+  align-items: stretch;
+}
+
+.box{
   width: 100px;
-  height: 100px;
-  display: inline-block;
-  color: white;
-}
-
-.box:nth-child(2) {
-  margin-left: 35px;
-}
-
-.box:nth-child(3) {
-  margin-left: 20px;
+  background-color: peru;
 }
